@@ -1,0 +1,11 @@
+# Chặn file cấu hình IDE (ở root)
+.vscode/
+.idea/
+*.swp
+
+# Chặn file hệ thống máy tính (ở root)
+.DS_Store
+Thumbs.db
+
+# Chặn file log lỗi (nếu có rơi vãi ra root)
+*.log

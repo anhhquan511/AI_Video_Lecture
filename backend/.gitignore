@@ -1,0 +1,29 @@
+# Loại bỏ thư mục môi trường ảo (Rất quan trọng)
+venv/
+env/
+.venv/
+
+static/audio/
+static/generated_images/
+static/uploads/
+static/temp/
+static/video/
+static/sd_images
+static/generated_slides/
+
+chroma_db/
+
+# Loại bỏ các file tạm của Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Loại bỏ file cấu hình bảo mật (Chứa mã bí mật, mật khẩu DB)
+.env
+
+# Loại bỏ các file tạm của IDE
+.vscode/
+.idea/
+
+f_requirements.txt
